@@ -32,7 +32,3 @@ var decrypt = function(str,shift) {
 	
 	return newStr;
 }
-var input = prompt("Enter a string.");
-input = encrypt(input,3);
-alert(input);
-alert(decrypt(input,3));
